@@ -1,6 +1,9 @@
 
 # Healthcare Microservices Project by HungryCoders
 
+<img width="970" height="347" alt="image" src="https://github.com/user-attachments/assets/45fe203a-39ac-4f15-8e16-9e5936872a50" />
+
+
 This project is a **Healthcare Microservices System** designed for self-learning and interview preparation. It includes services for authentication, appointments, doctor and patient management, notifications, and more. The system is implemented using **Spring Boot**, **Kafka**, **MongoDB**, **ReactJS**, and **Docker**.
 
 ---
@@ -21,20 +24,7 @@ This project is a **Healthcare Microservices System** designed for self-learning
 
 ## Architecture
 
-The project consists of the following microservices:
 
-1. **Auth Service**: Manages authentication and authorization.
-2. **Doctor Service**: Handles doctor-related operations.
-3. **Patient Service**: Handles patient-related operations.
-4. **Appointment Service**: Manages appointments and sends events to Kafka.
-5. **Notification Service**: Listens to Kafka events and sends notifications via email.
-6. **Admin Service**: Provides centralized monitoring using Spring Boot Admin.
-7. **Gateway Service**: Routes requests to other services and includes circuit breaker patterns.
-8. **UI Service**: A ReactJS-based frontend for user interaction.
-9. **MongoDB**: Stores data for all services.
-10. **Kafka**: Facilitates asynchronous communication between services.
-
----
 
 ## How to Run
 
